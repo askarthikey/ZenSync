@@ -142,7 +142,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            <Route path="/profile/:email" element={<UserProfile />} />
+            <Route path="/profile" element={<UserProfile />} />
             <Route
               path="/creator-projects"
               element={
